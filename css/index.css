@@ -101,14 +101,14 @@
 .countdown-section {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: white;
-    padding: 40px 0;
+    padding: 45px 20px;
     margin: 40px 0;
     border-radius: 15px;
 }
 
 .countdown-box {
     background: rgba(255, 255, 255, 0.2);
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     text-align: center;
 }
