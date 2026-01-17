@@ -70,6 +70,17 @@ body {
     margin-bottom: 20px;
 }
 
+.all-btn {
+    width: 55px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #e5e7eb;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
 .alphabet-btn {
     width: 40px;
     height: 40px;
@@ -84,6 +95,12 @@ body {
 .alphabet-btn:hover {
     border-color: var(--primary-color);
     background: rgba(139, 92, 246, 0.1);
+}
+
+.all-btn.active {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    border-color: var(--primary-color);
 }
 
 .alphabet-btn.active {
